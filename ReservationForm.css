@@ -1,0 +1,40 @@
+body{
+  margin-top: 10%;
+  background-color: black;
+}
+#head
+{
+  color:rgb(42, 130, 207);
+}
+.reservation-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  color: wheat;
+}
+
+.reservation-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reservation-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.reservation-form input,
+.reservation-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
